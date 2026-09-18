@@ -1,4 +1,4 @@
-# Iron Tempest
+# Iron Tempest Beta
 
 Iron Tempest is an original browser-based real-time strategy demo inspired by classic base-building RTS games.
 
@@ -32,7 +32,9 @@ Primary source branch: `Iron-Tempest`
 - Synthesized sound effects using the Web Audio API
 - Victory and defeat states
 - Responsive command interface
-- Self-contained visual assets
+- Original high-resolution unit and structure sprite atlases
+- Player and enemy faction tinting
+- Sprite-backed production cards
 - No external runtime dependencies or CDN requirements
 
 ## Controls
@@ -47,4 +49,4 @@ Primary source branch: `Iron-Tempest`
 
 ## Deployment
 
-The game is self-contained in `index.html`, so all visuals, sounds, animation logic, and gameplay code are included in the branch.
+The game is a static site. Keep `index.html` and the `assets/` directory together when deploying.
